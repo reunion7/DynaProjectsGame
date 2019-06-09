@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GM
   - Ground
+  - EndGame
   layers:
   - Default
   - TransparentFX

@@ -30,7 +30,7 @@ public class MyPlayerController : PhysicsObject
         {
             if (velocity.y > 0)
             {
-                velocity.y = velocity.y * 0.5f;
+                velocity.y = velocity.y * 0.4f;
             }
         }
 

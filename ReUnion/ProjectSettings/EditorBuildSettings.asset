@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: c34e9bdc053ad5b4092a7cd6fc4a8180
+  - enabled: 1
+    path: Assets/Scenes/Opciones.unity
+    guid: 9f840f78831ffb240bbf3997702725f1
+  - enabled: 1
     path: Assets/NivelInfierno.unity
     guid: c9ba78afb7bd3c24784b897ef306a297
+  - enabled: 1
+    path: Assets/Scenes/Pantalla muerte.unity
+    guid: b672e28bbd4a9a140b9c5ef49c8a394c
   m_configObjects: {}
