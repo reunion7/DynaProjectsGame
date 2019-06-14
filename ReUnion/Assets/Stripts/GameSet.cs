@@ -22,7 +22,7 @@ public class GameSet : MonoBehaviour {
     }
     void Restart()
     {
-        SceneManager.LoadScene("Menu Muerte");
+        SceneManager.LoadScene("Pantalla muerte");
     }
 
 
