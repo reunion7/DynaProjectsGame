@@ -6,6 +6,7 @@ public class MyPlayerController : PhysicsObject
 {
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
+	public Joystick mov;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -20,17 +21,15 @@ public class MyPlayerController : PhysicsObject
     {
         Vector2 move = Vector2.zero;
 
-        move.x = Input.GetAxis("Horizontal");
+        move.x = mov.Horizontal;
 
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (mov.Vertical>0 && grounded)
         {
             velocity.y = jumpTakeOffSpeed;
-        }
-        else if (Input.GetButtonUp("Jump"))
-        {
-            if (velocity.y > 0)
+
+            if (velocity.y > 0.0)
             {
-                velocity.y = velocity.y * 0.4f;
+                velocity.y = velocity.y * 0.9f;
             }
         }
 
