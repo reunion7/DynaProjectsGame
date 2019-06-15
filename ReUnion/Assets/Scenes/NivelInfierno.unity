@@ -2419,7 +2419,7 @@ MonoBehaviour:
   gravityModifier: 1
   maxSpeed: 7
   jumpTakeOffSpeed: 7
-  mov: {fileID: 0}
+  mov: {fileID: 835433613}
 --- !u!1001 &835433611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2430,7 +2430,7 @@ PrefabInstance:
     - target: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
       propertyPath: m_Name
-      value: Fixed Joystick
+      value: mov
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252,
         type: 3}
@@ -2545,6 +2545,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 835433611}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &835433613 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252,
+    type: 3}
+  m_PrefabInstance: {fileID: 835433611}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &854852834
 GameObject:
   m_ObjectHideFlags: 0
