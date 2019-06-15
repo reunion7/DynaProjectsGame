@@ -2352,6 +2352,7 @@ MonoBehaviour:
   gravityModifier: 1
   maxSpeed: 7
   jumpTakeOffSpeed: 7
+  mov: {fileID: 0}
 --- !u!1 &888167249
 GameObject:
   m_ObjectHideFlags: 0
