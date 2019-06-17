@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1266591694181353153}
   - component: {fileID: 1266591694181353158}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112,16 +112,16 @@ SpriteRenderer:
   m_SortingLayerID: 1785921335
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8942875812475600522, guid: b100332f430087c419645c126b85142e,
+  m_Sprite: {fileID: -1677199824353486641, guid: eca8151734708614c82589960589a856,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.34, y: 0.64}
+  m_Size: {x: 0.96875, y: 1.4375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1266591694181353152
