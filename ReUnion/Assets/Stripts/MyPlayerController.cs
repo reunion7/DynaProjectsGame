@@ -37,11 +37,14 @@ public class MyPlayerController : PhysicsObject
         if (flipSprite)
         {
             spriteRenderer.flipX = !spriteRenderer.flipX;
+
         }
 
         animator.SetBool("grounded", grounded);
         animator.SetBool("Jump", jump);
         animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+        animator.SetFloat("velocityY", Mathf.Abs(velocity.y) / maxSpeed);
+
 
         targetVelocity = move * maxSpeed;
     }
