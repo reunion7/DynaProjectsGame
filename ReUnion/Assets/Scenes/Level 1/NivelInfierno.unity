@@ -1760,6 +1760,16 @@ PrefabInstance:
       propertyPath: mov
       value: 
       objectReference: {fileID: 835433613}
+    - target: {fileID: 1266591694181353180, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.097380325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266591694181353180, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.2327461
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40b2df54390b5e8499482ba79178f3d2, type: 3}
 --- !u!1 &569794553
