@@ -7,6 +7,7 @@ public class MyPlayerController : PhysicsObject
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
 	public Joystick mov;
+    public bool jump;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
