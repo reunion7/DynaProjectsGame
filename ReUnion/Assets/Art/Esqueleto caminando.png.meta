@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 87b1c229771bd5c41b7a77b6722e3635
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2584507508532747854
+    second: Esqueleto caminando_0
+  - first:
+      213: -7873402453874459668
+    second: Esqueleto caminando_1
+  - first:
+      213: 359242292741632235
+    second: Esqueleto caminando_2
+  - first:
+      213: -1175312892236777930
+    second: Esqueleto caminando_3
+  - first:
+      213: 3446307191919300526
+    second: Esqueleto caminando_4
+  - first:
+      213: -8244641433221831281
+    second: Esqueleto caminando_5
+  - first:
+      213: -4701153921060223084
+    second: Esqueleto caminando_6
+  - first:
+      213: 8495116307018971049
+    second: Esqueleto caminando_7
+  - first:
+      213: 5933122052580097458
+    second: Esqueleto caminando_8
+  - first:
+      213: 2193029167347991384
+    second: Esqueleto caminando_9
+  - first:
+      213: 8192525417199305753
+    second: Esqueleto caminando_10
+  - first:
+      213: -1609916575704477382
+    second: Esqueleto caminando_11
+  - first:
+      213: 7065686171021826063
+    second: Esqueleto caminando_12
+  - first:
+      213: -902942156331983042
+    second: Esqueleto caminando_13
+  - first:
+      213: -4443367285661095891
+    second: Esqueleto caminando_14
+  - first:
+      213: -8743702416950330837
+    second: Esqueleto caminando_15
+  - first:
+      213: -1274606606973716062
+    second: Esqueleto caminando_16
+  - first:
+      213: 8442341451938472030
+    second: Esqueleto caminando_17
+  - first:
+      213: -6496834240899104321
+    second: Esqueleto caminando_18
+  - first:
+      213: 3653961395099488748
+    second: Esqueleto caminando_19
+  - first:
+      213: -2329210822064562482
+    second: Esqueleto caminando_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Esqueleto caminando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef38bc1d3cc40cf468021e773423b650
+      internalID: 2584507508532747854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 296
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92504eaf52ac01408ddb4ac149189fe
+      internalID: -7873402453874459668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 296
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a8bdd47c2fb2e4eb9b2d8261d72299
+      internalID: 359242292741632235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 296
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9de1d3c55e7f544ad521104d891203
+      internalID: -1175312892236777930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 296
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e265e66f660ae44aec3049b7e4b07e
+      internalID: 3446307191919300526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67230638c6974ac449e614ffffcf7738
+      internalID: -8244641433221831281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 222
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f63c2400025bd54585bb88871baeb05
+      internalID: -4701153921060223084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 222
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b0c93f988ba594f86d79bfe2d47187
+      internalID: 8495116307018971049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 222
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984a9cb3f5ec8ca4caf3ef328067d665
+      internalID: 5933122052580097458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 222
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef399da30dd4fb64589f74de232482f5
+      internalID: 2193029167347991384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f6edb151c46424eba4f549a80bded1
+      internalID: 8192525417199305753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 148
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2fb819ed618649b511532b1d7c104
+      internalID: -1609916575704477382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 148
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff63749af06eade4caac4cc897ef2136
+      internalID: 7065686171021826063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 148
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5553447ce7ae44594c2ea4838f6567
+      internalID: -902942156331983042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 148
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929b221c8b473ec478c36c17f18a4e75
+      internalID: -4443367285661095891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc53e212e5e6a4989f70a6f62940ca
+      internalID: -8743702416950330837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_16
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 74
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7a010b60b65a44ca22bafa6ae3114d
+      internalID: -1274606606973716062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 74
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efedca179c0e5554fa6cc48c8ef4dea9
+      internalID: 8442341451938472030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 74
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4179f671bbf338145958bdd7e53e326c
+      internalID: -6496834240899104321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 74
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b193e03edc9364582ba18eb7d36258
+      internalID: 3653961395099488748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esqueleto caminando_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec580b00d41c8034d9c34c96628b043d
+      internalID: -2329210822064562482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
