@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public Transform sueloCheck;
     public float checkRadio;
     public LayerMask queEsPiso;
+    public Joystick joy;
 
     private bool enSuelo;
     private Rigidbody2D rb2d;
@@ -37,8 +38,8 @@ public class PlayerController : MonoBehaviour
         enSuelo = Physics2D.OverlapCircle(sueloCheck.position, checkRadio, queEsPiso);
 
 
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = joy.Horizontal;
+        float vertical = joy.Vertical;
 
         if (vertical > 0 && enSuelo)
         {

@@ -219,6 +219,7 @@ MonoBehaviour:
   queEsPiso:
     serializedVersion: 2
     m_Bits: 256
+  joy: {fileID: 637140950}
 --- !u!114 &382148962
 MonoBehaviour:
   m_ObjectHideFlags: 0
