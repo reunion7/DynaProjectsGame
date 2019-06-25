@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float checkRadio;
     public LayerMask queEsPiso;
     public Joystick joy;
-
+    public bool vertical;
     private bool enSuelo;
     private Rigidbody2D rb2d;
     private Animator animador;
@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
         animador.SetFloat("Velocidad", Mathf.Abs(rb2d.velocity.x));
         animador.SetBool("EnSuelo", enSuelo);
     }
@@ -39,9 +38,8 @@ public class PlayerController : MonoBehaviour
 
 
         float horizontal = joy.Horizontal;
-        float vertical = joy.Vertical;
 
-        if (vertical > 0 && enSuelo)
+        if (vertical && enSuelo)
         {
             rb2d.velocity = Vector2.up * fuerzaSalto;
         }
@@ -58,6 +56,15 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+       
+    }
 
+    public void saltando()
+    {
+        vertical = true;
+    }
+    public void bajando()
+    {
+        vertical = false;
     }
 }
