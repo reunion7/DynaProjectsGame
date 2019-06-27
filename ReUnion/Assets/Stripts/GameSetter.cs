@@ -7,6 +7,7 @@ public class GameSetter : MonoBehaviour
     public static GameSetter gs;
     public int vidas = 4;
 
+
     void Awake ()
     {
         if(gs == null)
@@ -34,6 +35,14 @@ public class GameSetter : MonoBehaviour
     public int GetVidas()
     {
         return vidas;
+    }
+
+    public void FinDelJuegoAparicion()
+    {
+        if(vidas < 0)
+        {
+
+        }
     }
 
 
