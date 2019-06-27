@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 public class VidaJugador : MonoBehaviour
 {
     public float minY = -10f;
-
-    private Animator animador;
+	public GameObject FinJuego;
+	private Animator animador;
     private Rigidbody2D rb2d;
-
+	
     void Start()
     {
         animador = GetComponent<Animator>();
@@ -41,7 +41,12 @@ public class VidaJugador : MonoBehaviour
         if(GameSetter.gs.GetVidas() >= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+		}
+		else
+		{
+			FinJuego.SetActive(true);
+		}
+		
     }
 
 }

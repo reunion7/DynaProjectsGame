@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - EndGame
   - Movement
+  - PantallaFinJuego
   layers:
   - Default
   - TransparentFX
