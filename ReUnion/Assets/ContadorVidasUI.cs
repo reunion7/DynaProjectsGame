@@ -15,6 +15,9 @@ public class ContadorVidasUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TextoVidas.text = "VIDAS: " + GameSetter.gs.GetVidas();
+		if(GameSetter.gs.GetVidas() >= 0)
+		{
+			TextoVidas.text = "VIDAS: " + GameSetter.gs.GetVidas();
+		}  
     }
 }

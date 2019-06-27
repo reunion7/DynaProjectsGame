@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameSetter : MonoBehaviour
 {
 	public static GameSetter gs;
 	public int vidas = 4;
 
-	[SerializeField]
-	private GameObject finJuego;
 
 
 	void Awake()
@@ -32,7 +31,7 @@ public class GameSetter : MonoBehaviour
 
 	public void SetVidas(int vida)
 	{
-		if (vidas > -2)
+		if (vidas > -1)
 		{
 			vidas += vida;
 		}
@@ -47,9 +46,7 @@ public class GameSetter : MonoBehaviour
 
 	public void Fin()
 	{
-		if(vidas > 0)
-		{
-			finJuego.SetActive(true);
-		}
+		gs = null;
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }
