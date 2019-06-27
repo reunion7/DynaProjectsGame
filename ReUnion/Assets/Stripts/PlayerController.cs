@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
 
         enSuelo = Physics2D.OverlapCircle(sueloCheck.position, checkRadio, queEsPiso);
 
+		
 
         float horizontal = joy.Horizontal;
 
@@ -44,6 +45,7 @@ public class PlayerController : MonoBehaviour
             rb2d.velocity = Vector2.up * fuerzaSalto;
         }
 
+		vertical = false;
         rb2d.velocity = new Vector2(velocidad * horizontal, rb2d.velocity.y);
 
 
