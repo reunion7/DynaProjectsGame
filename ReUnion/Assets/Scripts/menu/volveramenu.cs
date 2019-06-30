@@ -1,13 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class volveramenu : MonoBehaviour
 {
-    public void volver()
+	public Fader fader;
+
+    public void Volver()
     {
-        SceneManager.LoadScene("Menu");
+		fader.FadeTo("Menu");
     }
 }
 
