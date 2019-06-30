@@ -311,7 +311,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1303970614}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 552e8624be6c34941ad8797fce798f60, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -15514,11 +15514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7250321859677410174}
     m_Modifications:
-    - target: {fileID: 6721066059866402422, guid: ce731047cc7c4d243b84a7c86865e40a,
-        type: 3}
-      propertyPath: m_Name
-      value: Salto
-      objectReference: {fileID: 0}
     - target: {fileID: 6721066059866402417, guid: ce731047cc7c4d243b84a7c86865e40a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15623,6 +15618,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6721066059866402422, guid: ce731047cc7c4d243b84a7c86865e40a,
+        type: 3}
+      propertyPath: m_Name
+      value: Salto
       objectReference: {fileID: 0}
     - target: {fileID: 6721066059866402416, guid: ce731047cc7c4d243b84a7c86865e40a,
         type: 3}
@@ -15885,16 +15885,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 680307618541883248, guid: 40b2df54390b5e8499482ba79178f3d2,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 680307618541883255, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
       propertyPath: joy
       value: 
       objectReference: {fileID: 5492309344365433577}
+    - target: {fileID: 680307618541883248, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 680307618541883209, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
       propertyPath: FinJuego
@@ -16041,17 +16041,17 @@ PrefabInstance:
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490331, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
@@ -16066,7 +16066,7 @@ PrefabInstance:
     - target: {fileID: 3224882239891490331, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490332, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}

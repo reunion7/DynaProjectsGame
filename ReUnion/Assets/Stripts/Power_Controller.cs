@@ -17,6 +17,6 @@ public class Power_Controller : MonoBehaviour
         MousePosicion = Input.mousePosition;
         ObjetoPosicion = Camera.main.WorldToScreenPoint(transform.position);
         angulo = Mathf.Atan2((MousePosicion.y - ObjetoPosicion.y), (MousePosicion.x - ObjetoPosicion.x) )* Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angulo));
+        //transform.rotation = Quaternion.Euler(new Vector3(0, 0, angulo));
     }
 }
