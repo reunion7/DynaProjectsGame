@@ -2022,6 +2022,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fader: {fileID: 6749541683173026100}
+  botonesNiveles:
+  - {fileID: 1214795706}
+  - {fileID: 858590152}
+  - {fileID: 852465357}
+  - {fileID: 256507334}
+  - {fileID: 2016945735}
 --- !u!4 &1714846820
 Transform:
   m_ObjectHideFlags: 0

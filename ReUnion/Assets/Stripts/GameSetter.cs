@@ -9,7 +9,6 @@ public class GameSetter : MonoBehaviour
 	public int vidas = 4;
 
 
-
 	void Awake()
 	{
 		if (gs == null)
@@ -48,5 +47,10 @@ public class GameSetter : MonoBehaviour
 	{
 		gs = null;
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
+
+	public void GanarNivel()
+	{
+		Debug.Log("Gano Nivel!!");
 	}
 }
