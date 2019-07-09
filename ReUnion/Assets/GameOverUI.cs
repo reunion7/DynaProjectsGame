@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class GameOverUI : MonoBehaviour
 {
-
+	public Fader fader;
 
     public void Salir()
     {
-        Application.Quit();
+		fader.FadeTo("Menu");
     }
-    public void Retry()
+    public void Reintentar()
     {
 		GameSetter.gs.Fin();
     }

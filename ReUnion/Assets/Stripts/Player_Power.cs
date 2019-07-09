@@ -14,10 +14,10 @@ public class Player_Power : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
-            Instantiate(proyectil, transform.position, transform.rotation);
-        }
+        //if (Input.GetMouseButtonUp(0))
+        //{
+        //    Instantiate(proyectil, transform.position, transform.rotation);
+        //}
     }
     public void SetDistancia(float d)
     {
