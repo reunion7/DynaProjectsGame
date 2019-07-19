@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Joystick joy;
     public bool vertical;
     private bool enSuelo;
+
     private Rigidbody2D rb2d;
     private Animator animador;
     private SpriteRenderer spriteRenderer;
@@ -35,8 +34,6 @@ public class PlayerController : MonoBehaviour
     {
 
         enSuelo = Physics2D.OverlapCircle(sueloCheck.position, checkRadio, queEsPiso);
-
-		
 
         float horizontal = joy.Horizontal;
 

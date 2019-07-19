@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ManuPrincipal : MonoBehaviour
 {
@@ -20,6 +18,4 @@ public class ManuPrincipal : MonoBehaviour
 	{
 		Application.Quit();
 	}
-
-
 }

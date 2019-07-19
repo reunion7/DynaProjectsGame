@@ -195,19 +195,9 @@ PrefabInstance:
       objectReference: {fileID: 1518851563}
     - target: {fileID: 5970160413439602823, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: saltando
-      objectReference: {fileID: 0}
-    - target: {fileID: 5970160413439602823, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1518851563}
-    - target: {fileID: 5970160413439602823, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: bajando
-      objectReference: {fileID: 0}
     - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: fader
@@ -218,6 +208,26 @@ PrefabInstance:
       propertyPath: fader
       value: 
       objectReference: {fileID: 945612467}
+    - target: {fileID: 7710745209481844566, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710745209481844563, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710745209481844563, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124845179896500523, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 462649cd59763ba4888ec1e97be2c00b, type: 3}
 --- !u!1 &145881313
@@ -17378,6 +17388,11 @@ PrefabInstance:
       propertyPath: joy
       value: 
       objectReference: {fileID: 343759649}
+    - target: {fileID: 680307618541883255, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: fuerzaSalto
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 680307618541883209, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
       propertyPath: minY
@@ -17467,6 +17482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 1.2327461
+      objectReference: {fileID: 0}
+    - target: {fileID: 680307618088868948, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40b2df54390b5e8499482ba79178f3d2, type: 3}

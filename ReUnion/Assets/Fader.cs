@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -7,9 +6,7 @@ using UnityEngine.SceneManagement;
 public class Fader : MonoBehaviour
 {
 	public Image imagen;
-
 	public AnimationCurve curva; //Esto permite configurar el fade de mi cambio de escena
-
 
 	void Start()
 	{
@@ -20,7 +17,6 @@ public class Fader : MonoBehaviour
 	{
 		StartCoroutine(FadeOut(nombreEscena));
 	}
-
 
 	IEnumerator FadeIn()
 	{
@@ -47,6 +43,4 @@ public class Fader : MonoBehaviour
 		}
 		SceneManager.LoadScene(nombreEscena);
 	}
-
-
 }
