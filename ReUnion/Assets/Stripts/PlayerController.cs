@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEditor.Audio;
+
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public Joystick joy;
     public bool vertical;
     private bool enSuelo;
+    public AudioSource audioSource;
+    public AudioClip pisada;
 
     private Rigidbody2D rb2d;
     private Animator animador;
@@ -21,6 +25,8 @@ public class PlayerController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         animador = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+       
     }
 
 
@@ -36,6 +42,15 @@ public class PlayerController : MonoBehaviour
         enSuelo = Physics2D.OverlapCircle(sueloCheck.position, checkRadio, queEsPiso);
 
         float horizontal = joy.Horizontal;
+
+        if (horizontal != 0)
+            audioSource.clip = pisada;
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(pisada);
+            }
+        }
 
         if (vertical && enSuelo)
         {
