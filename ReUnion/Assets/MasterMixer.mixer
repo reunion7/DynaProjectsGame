@@ -24,7 +24,12 @@ AudioMixerController:
     - 0953fa513e041804b821c46260da3a89
     - 51dcf3657054ecf4ea553a7ad8d9767e
     name: View
-  m_CurrentViewIndex: 0
+  - guids:
+    - 009fa323a4e25474f8937f542f6c26c5
+    - 0953fa513e041804b821c46260da3a89
+    - 51dcf3657054ecf4ea553a7ad8d9767e
+    name: View - Copy
+  m_CurrentViewIndex: 1
   m_TargetSnapshot: {fileID: 24500006}
 --- !u!243 &24300002
 AudioMixerGroupController:
