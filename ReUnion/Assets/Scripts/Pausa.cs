@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class Pausa : MonoBehaviour
 {
@@ -21,7 +20,7 @@ public class Pausa : MonoBehaviour
         pausa = true;
     }
 
-	public void Ac()
+	public void Activar()
 	{
 		if (pausa)
 		{
@@ -44,7 +43,4 @@ public class Pausa : MonoBehaviour
 		Time.timeScale = 1f;
 		fader.FadeTo("Menu");
 	}
-
-
-
 }

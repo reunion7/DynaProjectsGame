@@ -53,7 +53,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e1b246527b7e249b51d0e6405a9e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuerzaSalto: 11.5
+  fuerzaSalto: 14
   velocidad: 10
   sueloCheck: {fileID: 680307619788284743}
   checkRadio: 0.5
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b32d5677240380d43a51f242c22443cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minY: -15
+  minY: -10
   FinJuego: {fileID: 0}
 --- !u!1 &680307619788284736
 GameObject:
@@ -216,11 +216,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 680307617958991993}
     m_Modifications:
-    - target: {fileID: 3224882239891490528, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
-        type: 3}
-      propertyPath: m_Name
-      value: Player_Power
-      objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -276,21 +271,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
+    - target: {fileID: 3224882239891490528, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
+      propertyPath: m_Name
+      value: Player_Power
       objectReference: {fileID: 0}
-    - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
+    - target: {fileID: 3224882239891490528, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
+    - target: {fileID: 3224882239891490332, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2
-      objectReference: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c367e3186516de34aa77260c373597d0, type: 2}
     - target: {fileID: 3224882239891490331, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_Size.x
@@ -301,16 +296,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3224882239891490331, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224882239891490332, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c367e3186516de34aa77260c373597d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d5705f936ed47d44b5cecb5ca7dfba3, type: 3}
 --- !u!4 &680307618088869035 stripped
