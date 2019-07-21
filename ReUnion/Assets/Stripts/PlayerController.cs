@@ -43,8 +43,7 @@ public class PlayerController : MonoBehaviour
 
         float horizontal = joy.Horizontal;
 
-        if (horizontal != 0)
-            audioSource.clip = pisada;
+        if (horizontal != 0 && Mathf.Abs(rb2d.velocity.x)!=0)
         {
             if (!audioSource.isPlaying)
             {
@@ -75,6 +74,7 @@ public class PlayerController : MonoBehaviour
 
     public void saltando()
     {
+        audioSource.PlayOneShot(pisada);
         vertical = true;
     }
     public void bajando()
