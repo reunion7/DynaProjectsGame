@@ -9,6 +9,7 @@ TagManager:
   - EndGame
   - Movement
   - PantallaFinJuego
+  - Enemy
   layers:
   - Default
   - TransparentFX
