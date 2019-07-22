@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124845178892701628}
   - component: {fileID: 1124845178892701629}
+  - component: {fileID: 972041406}
   m_Layer: 5
   m_Name: Sonidos
   m_TagString: Untagged
@@ -83,15 +84,39 @@ MonoBehaviour:
   m_FillRect: {fileID: 1124845179124054048}
   m_HandleRect: {fileID: 1124845179555490094}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 972041406}
+        m_MethodName: SetLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &972041406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124845178892701627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31743ce101c0b4b469317c1f903fd743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 5ecc1d8de8f6a0d4b987c6e6dd2fec87, type: 2}
 --- !u!1 &1124845178900052952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,7 +3401,7 @@ Canvas:
   m_GameObject: {fileID: 7710745209481844567}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
