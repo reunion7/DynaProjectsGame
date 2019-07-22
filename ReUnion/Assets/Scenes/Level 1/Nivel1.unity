@@ -47564,7 +47564,7 @@ GameObject:
   - component: {fileID: 1756520879}
   - component: {fileID: 1756520883}
   m_Layer: 8
-  m_Name: Scroll sprite
+  m_Name: Scroll sprite 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84292,7 +84292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2086661426
 RectTransform:
   m_ObjectHideFlags: 0

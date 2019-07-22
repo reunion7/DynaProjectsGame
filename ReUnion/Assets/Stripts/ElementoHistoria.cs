@@ -6,13 +6,19 @@ public class ElementoHistoria : MonoBehaviour
 {
     public bool playerEnRango;
     public Dialogo dialogo;
+    private bool yaLeido;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerEnRango)
+        if (!yaLeido && playerEnRango)
         {
+            yaLeido = true;
             TriggerDialogo();
         }
+    }
+    void Start()
+    {
+        yaLeido = false;
     }
     private void OnTriggerEnter2D(Collider2D colision)
     {
