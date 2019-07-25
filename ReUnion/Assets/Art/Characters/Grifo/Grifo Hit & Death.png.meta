@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: b6063bc7e506d4a47bb1f38ac0e4bfaf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6618482250024076532
+    second: Grifo Hit & Death_0
+  - first:
+      213: 728243287360451794
+    second: Grifo Hit & Death_1
+  - first:
+      213: 2788415636229130421
+    second: Grifo Hit & Death_2
+  - first:
+      213: 8343918681473365859
+    second: Grifo Hit & Death_3
+  - first:
+      213: 1041857393051510229
+    second: Grifo Hit & Death_4
+  - first:
+      213: -7916878373635402560
+    second: Grifo Hit & Death_5
+  - first:
+      213: -339758098645100239
+    second: Grifo Hit & Death_6
+  - first:
+      213: 7859438483643601034
+    second: Grifo Hit & Death_7
+  - first:
+      213: -8012465775037412216
+    second: Grifo Hit & Death_8
+  - first:
+      213: 3957675842900307470
+    second: Grifo Hit & Death_9
+  - first:
+      213: 6372640144568618378
+    second: Grifo Hit & Death_10
+  - first:
+      213: -9070758316014533057
+    second: Grifo Hit & Death_11
+  - first:
+      213: 1794126648172389380
+    second: Grifo Hit & Death_12
+  - first:
+      213: 3118325270110840966
+    second: Grifo Hit & Death_13
+  - first:
+      213: -4043581723812868422
+    second: Grifo Hit & Death_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +115,327 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Grifo Hit & Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa5c3a7a4174ea4a831f26d3c018ee4
+      internalID: 6618482250024076532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 912
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89416342220634f49befb9b553699c7f
+      internalID: 728243287360451794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 912
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce7c4955c55fa04bb5f63a9dce82dff
+      internalID: 2788415636229130421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3e539dacf8aae4c9c0eab1935c7aa7
+      internalID: 8343918681473365859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 684
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0df4300d2b617c418db69ebdd9a5a8e
+      internalID: 1041857393051510229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 684
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f45a5921a9e76e47b91d66027568d26
+      internalID: -7916878373635402560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e2ebb329dcc6247a0cae3885daf938
+      internalID: -339758098645100239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 456
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2739cd2b839e048b895817b2f0a1d5
+      internalID: 7859438483643601034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 456
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3e680708d47a44ebd30f19273c9f4d
+      internalID: -8012465775037412216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a3eec127f1c04bb41b52cf28dc7df
+      internalID: 3957675842900307470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 228
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9ea95412ffe7844add3fc745ca808c
+      internalID: 6372640144568618378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 228
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c56987a0d1286149bd37279129cb536
+      internalID: -9070758316014533057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18da4399bb301d644ba10107b9d27738
+      internalID: 1794126648172389380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grifo Hit & Death_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 288
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b33f60f17917c4ea760dcbb70e2038
+      internalID: 3118325270110840966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
