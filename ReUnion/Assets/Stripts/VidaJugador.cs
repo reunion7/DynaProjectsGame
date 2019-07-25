@@ -4,10 +4,11 @@ using UnityEngine.SceneManagement;
 public class VidaJugador : MonoBehaviour
 {
     public float minY = -10f;
-	public GameObject FinJuego;
-	private Animator animador;
+    public GameObject FinJuego;
+    private Animator animador;
     private Rigidbody2D rb2d;
-	
+    public bool playerEnRango;
+
     void Start()
     {
         animador = GetComponent<Animator>();
@@ -17,7 +18,7 @@ public class VidaJugador : MonoBehaviour
 
     void Update()
     {
-        
+
     }
     void FixedUpdate()
     {
@@ -25,6 +26,27 @@ public class VidaJugador : MonoBehaviour
         {
             perderVida();
             Reset();
+        }
+        if (playerEnRango)
+        {
+            perderVida();
+            Reset();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D colision)
+    {
+        if (colision.CompareTag("Enemy"))
+        {
+            playerEnRango = true;
+        }
+
+    }
+    private void OnTriggerExit2D(Collider2D colision)
+    {
+        if (colision.CompareTag("Enemy"))
+        {
+            playerEnRango = false;
         }
 
     }
@@ -36,15 +58,15 @@ public class VidaJugador : MonoBehaviour
 
     public void Reset()
     {
-        if(GameSetter.gs.GetVidas() >= 0)
+        if (GameSetter.gs.GetVidas() >= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-		}
-		else
-		{
-			FinJuego.SetActive(true);
-		}
-		
+        }
+        else
+        {
+            FinJuego.SetActive(true);
+        }
+
     }
 
 }
