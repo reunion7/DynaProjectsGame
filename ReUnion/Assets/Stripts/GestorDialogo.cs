@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GestorDialogo : MonoBehaviour
 {
+    public GameObject scrollSprite;
     public GameObject cajaDialogo;
     public Text textoDialogo;
 
@@ -36,6 +37,7 @@ public class GestorDialogo : MonoBehaviour
         if(frases.Count == 0)
         {
             cajaDialogo.SetActive(false);
+            scrollSprite.SetActive(false);
             return;
         }
         string frase = frases.Dequeue();

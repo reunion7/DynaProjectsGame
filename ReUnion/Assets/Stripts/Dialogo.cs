@@ -5,6 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogo
 {
-    [TextArea(3,20)]
+    [TextArea(3,30)]
     public string[] frases;
 }
