@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7008494}
   - component: {fileID: 7008495}
+  - component: {fileID: 7008496}
   m_Layer: 0
   m_Name: fondonivel2
   m_TagString: Untagged
@@ -200,6 +201,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &7008496
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008493}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &228587309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -393,16 +413,16 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: bajando
       objectReference: {fileID: 0}
-    - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
-      propertyPath: fader
-      value: 
-      objectReference: {fileID: 228587310}
     - target: {fileID: 7710745209481844566, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 228587310}
     - target: {fileID: 6684358029021844155, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: m_Name
@@ -78010,3 +78030,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &3446726212008992353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8726532403272858546, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_Name
+      value: "Esqueleto est\xE1tico_0"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078909315196421674, guid: 338cedc05ac372741bfd26074a35dbe6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 338cedc05ac372741bfd26074a35dbe6, type: 3}
