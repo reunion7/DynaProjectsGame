@@ -513,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
@@ -46114,7 +46114,7 @@ PrefabInstance:
     - target: {fileID: 680307617958991993, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 680307617958991993, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
@@ -46640,7 +46640,7 @@ PrefabInstance:
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
@@ -46809,7 +46809,7 @@ PrefabInstance:
     - target: {fileID: 1255998073941601257, guid: 30f38d99b0a798b4ea56f5c49403c33b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1255998073941601257, guid: 30f38d99b0a798b4ea56f5c49403c33b,
         type: 3}
@@ -47093,7 +47093,7 @@ PrefabInstance:
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
@@ -47809,7 +47809,7 @@ PrefabInstance:
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
@@ -47955,12 +47955,11 @@ MonoBehaviour:
       hacia los cielos, cambiando su color a un escarlata intenso parecido a la sangre
       que brota todos los dias de los inhabitantes de este averno. Es el unico tipo
       de paisaje que merecen los pecadores que caen a este infierno, las almas de
-      aqui no merecen ser libradas de su eterno sufrimiento ya que ellos crearon
-      sufrimiento a otros en vida, ni yo ni nadie que se encuentre aqui puede escapar
-      del castido eterno del Todopoderoso que nos observa y juzga por toda la eternidad.
+      aqui no merecen ser libradas de su eterno sufrimiento ya que ellos crearon sufrimiento
+      a otros en vida, ni yo ni nadie que se encuentre aqui puede escapar del castido
+      eterno del Todopoderoso que nos observa y juzga por toda la eternidad.
 
-      ...Aun
-      asi yo no voy a parar de buscar la forma de  salir de este horrible agujero,
+      ...Aun asi yo no voy a parar de buscar la forma de  salir de este horrible agujero,
       voy a encontrar mi libertad sim importar lo que pase, aun cuando mi conciencia
       se este desvaneciendo lo unico que voy a buscar es como liberarme de la cadenas
       que me aprisionan en este lugar. Si tengo que aplastar a cada una de las horripilantes
@@ -84672,16 +84671,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2782984173084056605, guid: eaae0a0c2dc354948af9688b1e589390,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 228.46933
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782984173084056605, guid: eaae0a0c2dc354948af9688b1e589390,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 228.46933
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782984173084056605, guid: eaae0a0c2dc354948af9688b1e589390,
-        type: 3}
       propertyPath: m_LocalPosition.z
       value: -10
       objectReference: {fileID: 0}
@@ -84730,21 +84719,11 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1518851564}
-    - target: {fileID: 2782984173084056606, guid: eaae0a0c2dc354948af9688b1e589390,
-        type: 3}
-      propertyPath: m_Lens.OrthographicSize
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 2782984173084056607, guid: eaae0a0c2dc354948af9688b1e589390,
         type: 3}
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 1866356567}
-    - target: {fileID: 2782984173084056607, guid: eaae0a0c2dc354948af9688b1e589390,
-        type: 3}
-      propertyPath: m_ConfineScreenEdges
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaae0a0c2dc354948af9688b1e589390, type: 3}
 --- !u!1001 &3702130052295230279
@@ -84797,7 +84776,7 @@ PrefabInstance:
     - target: {fileID: 3702130051745978153, guid: 8eae114f2b861d742b1ba449a1007ba9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3702130051745978153, guid: 8eae114f2b861d742b1ba449a1007ba9,
         type: 3}
@@ -84866,7 +84845,7 @@ PrefabInstance:
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3963927450544481929, guid: c86b088bca5f9504b99c22b563cc5f00,
         type: 3}
@@ -84965,7 +84944,7 @@ PrefabInstance:
     - target: {fileID: 4254261553743722009, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4254261553743722009, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
         type: 3}
@@ -85044,7 +85023,7 @@ PrefabInstance:
     - target: {fileID: 6739737784707932230, guid: bc6e41dd49b84794eadc6eb4d3bcefd5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6739737784707932230, guid: bc6e41dd49b84794eadc6eb4d3bcefd5,
         type: 3}
