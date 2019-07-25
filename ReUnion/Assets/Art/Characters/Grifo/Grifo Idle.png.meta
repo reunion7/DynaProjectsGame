@@ -137,10 +137,10 @@ TextureImporter:
       name: Grifo Idle_0
       rect:
         serializedVersion: 2
-        x: 60
+        x: 0
         y: 684
-        width: 178
-        height: 180
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +148,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed3115dd34b01b41bcb224ed970501b
+      spriteID: 782ac7485d08cf946b35726339133f8a
       internalID: 7859667155313877366
       vertices: []
       indices: 
@@ -158,10 +158,10 @@ TextureImporter:
       name: Grifo Idle_1
       rect:
         serializedVersion: 2
-        x: 348
+        x: 288
         y: 684
-        width: 178
-        height: 182
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,7 +169,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73b143481c667847b4e9a507658c71b
+      spriteID: 77524a948f9079647acac4f5a9829160
       internalID: 5108869380978988800
       vertices: []
       indices: 
@@ -179,10 +179,10 @@ TextureImporter:
       name: Grifo Idle_2
       rect:
         serializedVersion: 2
-        x: 634
+        x: 576
         y: 684
-        width: 180
-        height: 182
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,7 +190,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45a35c7b11d0dcd4abdcb91fe9d35094
+      spriteID: 7bd03b3d76a970e44b060c5dfae282b8
       internalID: -1120163378569402505
       vertices: []
       indices: 
@@ -200,10 +200,10 @@ TextureImporter:
       name: Grifo Idle_3
       rect:
         serializedVersion: 2
-        x: 56
+        x: 0
         y: 456
-        width: 182
-        height: 182
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,7 +211,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511119478bf787b4991d0ac59a0758ae
+      spriteID: 0ac480228cbf0a749b153bba302ae48a
       internalID: -2004169457671543315
       vertices: []
       indices: 
@@ -221,10 +221,10 @@ TextureImporter:
       name: Grifo Idle_4
       rect:
         serializedVersion: 2
-        x: 338
+        x: 288
         y: 456
-        width: 188
-        height: 178
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,7 +232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b32b7273bfb3a040a31bb3621910213
+      spriteID: a6fc4967a8e87f7458c6679e52da828e
       internalID: 1165339433727183788
       vertices: []
       indices: 
@@ -242,10 +242,10 @@ TextureImporter:
       name: Grifo Idle_5
       rect:
         serializedVersion: 2
-        x: 628
+        x: 576
         y: 456
-        width: 186
-        height: 176
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b2378f2ff7d4f34c95bacb1cae61c25
+      spriteID: 2dc857c8473aadc478fb2faa6448af14
       internalID: 8709977891743179919
       vertices: []
       indices: 
@@ -263,10 +263,10 @@ TextureImporter:
       name: Grifo Idle_6
       rect:
         serializedVersion: 2
-        x: 56
+        x: 0
         y: 228
-        width: 182
-        height: 176
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,7 +274,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66a23ca30d026f7449cc9de0935a87dc
+      spriteID: 49f4c5780d7f58c4ba98e8579633f99a
       internalID: -7393370817696874471
       vertices: []
       indices: 
@@ -284,10 +284,10 @@ TextureImporter:
       name: Grifo Idle_7
       rect:
         serializedVersion: 2
-        x: 344
+        x: 288
         y: 228
-        width: 182
-        height: 174
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,7 +295,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75b96e2fa799bfc498a1e6bbb059f44f
+      spriteID: 62d1a7d1c51048c4e83a58718acde78b
       internalID: 765371908929453971
       vertices: []
       indices: 
@@ -305,10 +305,10 @@ TextureImporter:
       name: Grifo Idle_8
       rect:
         serializedVersion: 2
-        x: 632
+        x: 576
         y: 228
-        width: 182
-        height: 174
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,7 +316,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fdda24f8b85b9f4e94b75797d141a41
+      spriteID: 60956e9feb8e5d143a99ada6e7d4ccc7
       internalID: 558104993961552909
       vertices: []
       indices: 
@@ -326,10 +326,10 @@ TextureImporter:
       name: Grifo Idle_9
       rect:
         serializedVersion: 2
-        x: 60
+        x: 0
         y: 0
-        width: 178
-        height: 174
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,7 +337,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba3d857ffd8a91458c79e1448bfaee6
+      spriteID: e488f7edd99ae164795eb1a1c9cb9068
       internalID: -2142482284932251293
       vertices: []
       indices: 
@@ -347,10 +347,10 @@ TextureImporter:
       name: Grifo Idle_10
       rect:
         serializedVersion: 2
-        x: 342
+        x: 288
         y: 0
-        width: 184
-        height: 176
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,7 +358,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ebf577e3d5f27a4fa9a1bc9b6428b6e
+      spriteID: 81bb1457077032944825af1e160158b4
       internalID: -3212369451140361134
       vertices: []
       indices: 
@@ -368,10 +368,10 @@ TextureImporter:
       name: Grifo Idle_11
       rect:
         serializedVersion: 2
-        x: 636
+        x: 576
         y: 0
-        width: 178
-        height: 180
+        width: 288
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,7 +379,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21d8f775bb9e030449087d7c65f36a7a
+      spriteID: 34750b5ae621c4940bd10438859381ed
       internalID: -7309948116904523889
       vertices: []
       indices: 

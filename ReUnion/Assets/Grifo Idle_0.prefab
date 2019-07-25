@@ -75,7 +75,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 7859667155313877366, guid: 971ba76292566954aa812dfdac102587,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.88, y: 2.28}
@@ -123,7 +123,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &5447624679976452898
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -137,6 +137,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.78, y: 1.8}
+  m_Offset: {x: 0.023211658, y: -0.40620637}
+  m_Size: {x: 1.8264233, y: 1.9889059}
   m_Direction: 0
