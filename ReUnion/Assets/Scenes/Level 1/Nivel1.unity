@@ -232,21 +232,21 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1518851563}
-    - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
-      propertyPath: fader
-      value: 
-      objectReference: {fileID: 945612467}
-    - target: {fileID: 1124845179618124797, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
-      propertyPath: fader
-      value: 
-      objectReference: {fileID: 945612467}
     - target: {fileID: 7710745209481844566, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124845179618124797, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 945612467}
+    - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 945612467}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 462649cd59763ba4888ec1e97be2c00b, type: 3}
 --- !u!114 &78156019
@@ -446,6 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbfd16fcf929f4042a4cb495a63b1f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollSprite: {fileID: 1756520878}
   cajaDialogo: {fileID: 2086661425}
   textoDialogo: {fileID: 1961104064}
 --- !u!4 &304946095
@@ -47563,7 +47564,7 @@ GameObject:
   - component: {fileID: 1756520880}
   - component: {fileID: 1756520879}
   - component: {fileID: 1756520883}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Scroll sprite 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47583,7 +47584,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.053105563, y: 0.18999738}
+  m_Offset: {x: -0.04737834, y: -0.06503868}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -47594,7 +47595,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3344555, y: 1.0199949}
+  m_Size: {x: 0.5212059, y: 0.50992274}
   m_EdgeRadius: 0
 --- !u!212 &1756520880
 SpriteRenderer:
@@ -47631,8 +47632,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1271168145
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ec33d58aef4814c42bf6041da2280641, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
