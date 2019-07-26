@@ -7,14 +7,12 @@ public class VidaJugador : MonoBehaviour
     public GameObject FinJuego;
     private Animator animador;
     private Rigidbody2D rb2d;
-	private SpriteRenderer spriteRenderer;
     public bool playerEnRango;
 
     void Start()
     {
         animador = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
-		spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
 
@@ -29,19 +27,29 @@ public class VidaJugador : MonoBehaviour
             perderVida();
             Reset();
         }
+        if (playerEnRango)
+        {
+            perderVida();
+            Reset();
+        }
     }
 
-	void OnCollisionEnter2D(Collision2D collision)
-	{
-		if (collision.gameObject.tag == "Enemy")
-		{
-			spriteRenderer.color = Color.white;
-			perderVida();
-			Reset();
-		}
-	}
+    private void OnTriggerEnter2D(Collider2D colision)
+    {
+        if (colision.CompareTag("Enemy"))
+        {
+            playerEnRango = true;
+        }
 
+    }
+    private void OnTriggerExit2D(Collider2D colision)
+    {
+        if (colision.CompareTag("Enemy"))
+        {
+            playerEnRango = false;
+        }
 
+    }
 
     public void perderVida()
     {
@@ -58,8 +66,8 @@ public class VidaJugador : MonoBehaviour
         }
         else
         {
-			FinJuego.SetActive(true);
-		}
+            FinJuego.SetActive(true);
+        }
 
     }
 
