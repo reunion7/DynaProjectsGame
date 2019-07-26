@@ -170,4 +170,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadmaxima: 1
   velocidad: 1
-  minY: -10

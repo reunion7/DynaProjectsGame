@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEditor.Audio;
 
 
 public class PlayerController : MonoBehaviour
