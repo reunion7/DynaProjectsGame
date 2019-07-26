@@ -56,6 +56,8 @@ public class VidaJugador : MonoBehaviour
         GameSetter.gs.SetVidas(-1);
     }
 
+
+
     public void Reset()
     {
         if (GameSetter.gs.GetVidas() >= 0)
