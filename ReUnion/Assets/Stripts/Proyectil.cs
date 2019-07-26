@@ -24,4 +24,13 @@ public class Proyectil : MonoBehaviour
             posicionAnterior = transform.position;
         }
     }
+
+	private void OnBecameInvisible()
+	{
+		Destroy(gameObject);
+	}
+	void Colision()
+	{
+		Destroy(gameObject);
+	}
 }
