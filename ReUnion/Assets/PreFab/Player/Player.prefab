@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b32d5677240380d43a51f242c22443cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minY: -10
+  minY: -15
   FinJuego: {fileID: 0}
   playerEnRango: 0
 --- !u!82 &1217453779
