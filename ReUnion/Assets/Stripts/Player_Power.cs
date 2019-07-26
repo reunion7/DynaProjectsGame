@@ -7,6 +7,7 @@ public class Player_Power : MonoBehaviour
     public GameObject proyectil;
     public float distancia;
 	public float velocidad;
+
     void Start()
     {
         distancia = 20f;
