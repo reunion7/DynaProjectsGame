@@ -7,10 +7,12 @@ public class SimpleEnemy_Controller : MonoBehaviour
     public float velocidadmaxima = 1f;
     public float velocidad = 1f;
     private Rigidbody2D rb2d;
+	private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+		rb2d = GetComponent<Rigidbody2D>();
+		spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -24,14 +26,15 @@ public class SimpleEnemy_Controller : MonoBehaviour
             velocidad = -velocidad;
             rb2d.velocity = new Vector2(velocidad,rb2d.velocity.y);
         }
-        if (velocidad < 0)
-        {
-            transform.localScale = new Vector3(1f,1f,1f);
-        }
-        else if (velocidad > 0)
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
+
+		bool flipSprite = (spriteRenderer.flipX ? (velocidad > 0.001f) : (velocidad < 0.001f));
+		if (flipSprite)
+		{
+			if (velocidad != 0f)
+			{
+				spriteRenderer.flipX = !spriteRenderer.flipX;
+			}
+		}
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

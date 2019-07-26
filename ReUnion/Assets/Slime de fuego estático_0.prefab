@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3963927450544481934}
   - component: {fileID: 3963927450544481933}
   - component: {fileID: 1545523806}
+  - component: {fileID: 751996921}
   m_Layer: 0
   m_Name: "Slime de fuego est\xE1tico_0"
   m_TagString: Enemy
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3963927450544481932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.26, y: -5.6, z: 0}
-  m_LocalScale: {x: 3.2014403, y: 2.918, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -132,7 +133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3963927450544481932}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b07fc75c7e1bd564894c376368c5b893, type: 3}
   m_Name: 
@@ -155,3 +156,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0.00000001861807, y: 0}
   m_Size: {x: 0.20000005, y: 0.21999998}
   m_Direction: 0
+--- !u!114 &751996921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3963927450544481932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746266ccae55dbe48a7f71dd3db5dc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadmaxima: 1
+  velocidad: 1
