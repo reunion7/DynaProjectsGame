@@ -33445,7 +33445,7 @@ PrefabInstance:
     - target: {fileID: 2782984173084056605, guid: eaae0a0c2dc354948af9688b1e589390,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.956927
+      value: -15.770666
       objectReference: {fileID: 0}
     - target: {fileID: 2782984173084056605, guid: eaae0a0c2dc354948af9688b1e589390,
         type: 3}
@@ -33748,7 +33748,12 @@ PrefabInstance:
     - target: {fileID: 6739737784707932229, guid: bc6e41dd49b84794eadc6eb4d3bcefd5,
         type: 3}
       propertyPath: SiguienteNivel
-      value: Nivel2BF
+      value: Nivel3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739737784707932229, guid: bc6e41dd49b84794eadc6eb4d3bcefd5,
+        type: 3}
+      propertyPath: NumeroSiguienteNivel
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc6e41dd49b84794eadc6eb4d3bcefd5, type: 3}
@@ -77021,22 +77026,23 @@ MonoBehaviour:
   playerEnRango: 0
   dialogo:
     frases:
-    - 'Hacer tratos con demonios de semejante poder no es de mi agrado en lo mas minimo,
-      pero si me es posible salir aqui de alguna forma voy a tomar esa oportunidad,
+    - 'Hacer tratos con demonios de semejante poder no es de mi agrado en lo mas
+      minimo, pero si me es posible salir aqui de alguna forma voy a tomar esa oportunidad,
       ademas si toda esta travesia no lleva a nada entonces voy a tomarme mi tiempo
       pensando en como me voy a vengar de ese bastardo, mas aun gracias a los recados
       que me ha pedido me estoy volviendo cada vez mas fuerte, no falta mucho para
       que pueda enfrentarme con el sin temor a morir al tan ser rozado por uno de
       sus ataques.
 
-      El llamado "Rey" me pidio matar a otro demonio por alguna razon, hablando de
-      que se trataba de un traidor, siendo ansolutamente no le creo en nada y tengo
-      el presentimiento de que me esta mandando a eliminar a la competicion o a alguien
-      que puede llegar a serlo, en realidad no me importa si me trata como un soldado
-      desechable ya que cada vez soy mas fuerte.
+      El llamado "Rey" me pidio matar a otro demonio por alguna
+      razon, hablando de que se trataba de un traidor, siendo ansolutamente no le
+      creo en nada y tengo el presentimiento de que me esta mandando a eliminar a
+      la competicion o a alguien que puede llegar a serlo, en realidad no me importa
+      si me trata como un soldado desechable ya que cada vez soy mas fuerte.
 
-      De cualquier forma el premio mayor va a ser que voy a poder salir de aqui si
-      ese palurdo decia la verdad... '
+      De
+      cualquier forma el premio mayor va a ser que voy a poder salir de aqui si ese
+      palurdo decia la verdad... '
 --- !u!61 &1063977101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -77556,6 +77562,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680307618541883248, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 680307617958991993, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77626,11 +77637,6 @@ PrefabInstance:
       propertyPath: minY
       value: -29
       objectReference: {fileID: 0}
-    - target: {fileID: 680307618541883248, guid: 40b2df54390b5e8499482ba79178f3d2,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40b2df54390b5e8499482ba79178f3d2, type: 3}
 --- !u!114 &1610632636 stripped
@@ -77655,17 +77661,22 @@ PrefabInstance:
     - target: {fileID: 4254261553743722009, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.431462
+      value: -5.331476
       objectReference: {fileID: 0}
     - target: {fileID: 4254261553743722009, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.8083487
+      value: -4.780059
       objectReference: {fileID: 0}
     - target: {fileID: 4254261553743722009, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254261553743721990, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
+        type: 3}
+      propertyPath: orthographic size
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7250321859227383117, guid: 7f80b15fa3a8c3c48a226c6ea83a67ae,
         type: 3}
@@ -77961,7 +77972,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1804955902
 GameObject:
