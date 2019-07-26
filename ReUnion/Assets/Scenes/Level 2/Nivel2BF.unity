@@ -165,6 +165,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &813233091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7803599914128867106, guid: 5ddd8cb358695cf409ec2ab8cee4262f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7803599913325996629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1079591565 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1255998073181123068, guid: 30f38d99b0a798b4ea56f5c49403c33b,
@@ -258,6 +264,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30f38d99b0a798b4ea56f5c49403c33b, type: 3}
+--- !u!4 &1222467146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 680307617958991993, guid: 40b2df54390b5e8499482ba79178f3d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 680307618252156459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1268082643 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124845179618124795, guid: 462649cd59763ba4888ec1e97be2c00b,
@@ -19256,6 +19268,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801f8ab8805a8ae449980a35df9a392e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objetivos:
+  - {fileID: 813233091}
+  - {fileID: 1222467146}
+  smoothTime: 1
+  offset: {x: 0, y: 0, z: -50}
+  minZoom: 40
+  maxZoom: 10
+  limiteZoom: 50
 --- !u!1 &1437338104
 GameObject:
   m_ObjectHideFlags: 0
@@ -41256,6 +41276,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680307618541883248, guid: 40b2df54390b5e8499482ba79178f3d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 680307617958991993, guid: 40b2df54390b5e8499482ba79178f3d2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41321,11 +41346,6 @@ PrefabInstance:
       propertyPath: FinJuego
       value: 
       objectReference: {fileID: 1268082643}
-    - target: {fileID: 680307618541883248, guid: 40b2df54390b5e8499482ba79178f3d2,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40b2df54390b5e8499482ba79178f3d2, type: 3}
 --- !u!1001 &1124845180548514856
@@ -41405,26 +41425,26 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1173161913}
-    - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
-      propertyPath: fader
-      value: 
-      objectReference: {fileID: 1079591565}
-    - target: {fileID: 1124845179618124797, guid: 462649cd59763ba4888ec1e97be2c00b,
-        type: 3}
-      propertyPath: fader
-      value: 
-      objectReference: {fileID: 1079591565}
     - target: {fileID: 7710745209481844566, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124845179618124797, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 1079591565}
     - target: {fileID: 1124845180970609861, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1124845180970609858, guid: 462649cd59763ba4888ec1e97be2c00b,
+        type: 3}
+      propertyPath: fader
+      value: 
+      objectReference: {fileID: 1079591565}
     - target: {fileID: 7710745209481844563, guid: 462649cd59763ba4888ec1e97be2c00b,
         type: 3}
       propertyPath: m_Camera
@@ -41548,7 +41568,7 @@ PrefabInstance:
     - target: {fileID: 7803599914128867106, guid: 5ddd8cb358695cf409ec2ab8cee4262f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.12
+      value: -0.51
       objectReference: {fileID: 0}
     - target: {fileID: 7803599914128867106, guid: 5ddd8cb358695cf409ec2ab8cee4262f,
         type: 3}

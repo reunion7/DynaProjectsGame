@@ -182,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minY: -10
   FinJuego: {fileID: 0}
+  playerEnRango: 0
 --- !u!82 &1217453779
 AudioSource:
   m_ObjectHideFlags: 0
@@ -319,12 +320,12 @@ PrefabInstance:
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.49
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
@@ -371,15 +372,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224882239891490335, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490528, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
       propertyPath: m_Name
       value: Player_Power
-      objectReference: {fileID: 0}
-    - target: {fileID: 3224882239891490528, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3224882239891490332, guid: 8d5705f936ed47d44b5cecb5ca7dfba3,
         type: 3}
