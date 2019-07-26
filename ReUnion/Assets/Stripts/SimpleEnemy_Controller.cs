@@ -42,5 +42,6 @@ public class SimpleEnemy_Controller : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
+
+	}
 }
