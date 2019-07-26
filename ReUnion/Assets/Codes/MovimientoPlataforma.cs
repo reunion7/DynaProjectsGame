@@ -8,6 +8,7 @@ public class MovimientoPlataforma : MonoBehaviour
     public Transform target;
     public float speed;//velocidad de la plataforma
     private Vector3 empiezo, final;
+
     void Start()
     {
         if (target != null)
